@@ -1,0 +1,186 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin:0px;
+    height: 100vh;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 4px;
+    border-width: 0px;
+    font-weight: bold;
+}
+
+.inner {
+    margin: 0px 20%;
+    flex-grow: 1;
+}
+
+.outer-header, .outer-hero {
+    background-color: #1F2937;
+    flex-grow: 1;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+    padding: 8px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-icon {
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.hero-container {
+    display: flex;
+    padding: 30px 0px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    margin-top: 36px;
+    gap: 24px;
+}
+
+.hero-text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-heading {
+    margin: 0px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-main-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.skill-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.skill-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 10px 24px;
+}
+
+.skill-image-deck {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-around;
+    width: 600px;
+}
+
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    border: solid #3882F6
+}
+
+.skill-description {
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.quote-here {
+    background-color: #e5e7eb;
+    padding: 40px 80px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.credit {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contact-banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #f9faf8;
+    padding: 16px 32px;
+}
+
+.contact-me {
+    font-size: 24px;
+    margin: 4px;
+}
+
+.contact-invite {
+    font-size: 18px;
+    margin: 4px;
+}
+
+.contact-now {
+    width: 120px;
+    height: 30px;
+    border-width: 2px;
+    border-color: white;
+    text-align: center;
+}
+
+.footer {
+    color: #f9faf8;
+    background-color: #1F2937;
+    text-align: center;
+    font-size: 16px;
+    padding: 32px;
+}
